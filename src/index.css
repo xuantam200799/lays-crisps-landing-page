@@ -1,0 +1,186 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=sentient@400,700,500,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+:root {
+  --primary-color: #80e2ff;
+  --secondary-color: #ffd36a;
+  --third-color: #182327;
+  --txt-main-color: #000;
+  --txt-secondary-color: #5d696d;
+  --btn-main-color: #182327;
+
+  --main-font: Manrope;
+
+  --txt-sm: 1.2rem;
+  --txt-md: 1.6rem;
+  --txt-lg: 2.4rem;
+
+  --laptop-breakpoints: 1440px;
+  --tablet-breakpoints: 996px;
+  --mobile-breakpoints: 300px;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* typhograph */
+
+.typo-h1 {
+  font-family: "Sentient", serif;
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 7.6rem;
+  letter-spacing: 0px;
+}
+
+.typo-h2 {
+  font-family: "Sentient", serif;
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 4.6rem;
+  letter-spacing: 0px;
+}
+
+.typo-h3 {
+  font-family: "Sentient", serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0px;
+}
+
+.typo-h3-bold {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0px;
+}
+
+.typo-h3-semi {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0px;
+}
+
+.typo-h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0px;
+}
+
+.btn-1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.btn-2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.typo-p1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+
+.typo-p2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.typo-p3 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.typo-p4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.typo-testimonials {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2.2rem;
+  line-height: 3.6rem;
+}
+
+/* end typhograph */
+
+/* common */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.container-fluid {
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.just-start {
+  justify-content: flex-start;
+}
+
+.al-it-end {
+  align-items: flex-end;
+}
+
+/* end common */

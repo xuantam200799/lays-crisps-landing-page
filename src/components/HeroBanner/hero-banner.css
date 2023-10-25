@@ -1,0 +1,36 @@
+.banner {
+  background-image: linear-gradient(
+    rgba(2, 181, 234, 1),
+    rgba(2, 181, 234, 0.1)
+  );
+  margin-bottom: 150px;
+}
+
+.banner-content {
+  flex: 1;
+  align-self: center;
+}
+
+.banner-title {
+  margin: 20px 0;
+}
+
+.banner-desc {
+  margin-bottom: 40px;
+}
+
+.banner-img {
+  flex: 1;
+  padding: 45px;
+  /* background-image: repeating-radial-gradient(
+    circle at center,
+    transparent,
+    transparent 20px,
+    rgba(2, 181, 234, 1) 20px,
+    rgba(2, 181, 234, 1) 50px
+  ); */
+}
+
+.banner-img img {
+  max-width: 100%;
+}

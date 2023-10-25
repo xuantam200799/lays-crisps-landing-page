@@ -1,0 +1,25 @@
+.input-group {
+  position: relative;
+}
+
+.input-item {
+  box-sizing: border-box;
+  border: 1px solid #d8e0e2;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  min-width: 330px;
+  height: 52px;
+  padding-left: 50px;
+}
+
+.input-icon {
+  font-size: 2.4rem;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  color: #5d696d;
+}
+
+.input-item::placeholder {
+  color: #5d696d;
+}

@@ -1,0 +1,19 @@
+.cta {
+  background-color: var(--secondary-color);
+  background-position: center;
+}
+
+.cta-content {
+  margin: 0 auto;
+  width: 35%;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta-title {
+  margin-bottom: 20px;
+}
+
+.cta-desc {
+  margin-bottom: 40px;
+}
